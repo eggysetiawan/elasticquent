@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Facades;
+namespace Larahmat\Elasticquent\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -26,7 +26,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static bool exists(array $array)
  * @method static $this search(string $terms)
  *
- * @see \App\Services\ElasticsearchService
+ * @see \Larahmat\Elasticquent\Services\ElasticquentService
  */
 class ES extends Facade
 {
