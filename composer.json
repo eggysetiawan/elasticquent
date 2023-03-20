@@ -24,7 +24,13 @@
             "email": "setiawaneggy@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eggysetiawan/elasticquent"
+        }
+    ],
+    "minimum-stability": "dev",
     "config": {
         "allow-plugins": {
             "php-http/discovery": false
