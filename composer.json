@@ -35,6 +35,13 @@
     "config": {
         "allow-plugins": {
             "php-http/discovery": false
-        }
-    }
+        },
+        "sort-packages": true
+
+    },
+    "laravel": {
+        "providers": [
+            "Larahmat\\Elasticquent\\ElasticquentServiceProvider"
+        ]
+    }   
 }
