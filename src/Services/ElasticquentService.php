@@ -1,6 +1,6 @@
 <?php
 
-namespace Larahmat\Elasticquent;
+namespace Larahmat\Elasticquent\Services;
 
 use Exception;
 use Throwable;

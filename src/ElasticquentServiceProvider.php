@@ -3,6 +3,7 @@
 namespace Larahmat\Elasticquent;
 
 use Illuminate\Support\ServiceProvider;
+use Larahmat\Elasticquent\Services\ElasticquentService;
 
 class ElasticquentServiceProvider extends ServiceProvider
 {
